@@ -86,7 +86,6 @@
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.label26 = new System.Windows.Forms.Label();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
@@ -97,6 +96,7 @@
             this.label30 = new System.Windows.Forms.Label();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.textBox23 = new System.Windows.Forms.TextBox();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.label31 = new System.Windows.Forms.Label();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
@@ -162,6 +162,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -248,6 +249,7 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "Calculate";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
             // 
@@ -350,6 +352,7 @@
             this.button3.TabIndex = 19;
             this.button3.Text = "Calculate";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label9
             // 
@@ -470,6 +473,7 @@
             this.button4.TabIndex = 29;
             this.button4.Text = "Calculate";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label15
             // 
@@ -536,6 +540,7 @@
             this.button5.TabIndex = 11;
             this.button5.Text = "Calculate";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label19
             // 
@@ -619,6 +624,7 @@
             this.button6.TabIndex = 19;
             this.button6.Text = "Calculate";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label23
             // 
@@ -680,27 +686,6 @@
             this.tabPage7.Text = "Parallel/4 Resistors";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // tabPage8
-            // 
-            this.tabPage8.Controls.Add(this.label31);
-            this.tabPage8.Controls.Add(this.textBox24);
-            this.tabPage8.Controls.Add(this.label32);
-            this.tabPage8.Controls.Add(this.textBox25);
-            this.tabPage8.Controls.Add(this.label33);
-            this.tabPage8.Controls.Add(this.textBox26);
-            this.tabPage8.Controls.Add(this.button8);
-            this.tabPage8.Controls.Add(this.label34);
-            this.tabPage8.Controls.Add(this.label35);
-            this.tabPage8.Controls.Add(this.label36);
-            this.tabPage8.Controls.Add(this.textBox27);
-            this.tabPage8.Controls.Add(this.textBox28);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(792, 424);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Parallel/5 Resistors";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -742,6 +727,7 @@
             this.button7.TabIndex = 29;
             this.button7.Text = "Calculate";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label28
             // 
@@ -783,6 +769,27 @@
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(100, 20);
             this.textBox23.TabIndex = 24;
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.label31);
+            this.tabPage8.Controls.Add(this.textBox24);
+            this.tabPage8.Controls.Add(this.label32);
+            this.tabPage8.Controls.Add(this.textBox25);
+            this.tabPage8.Controls.Add(this.label33);
+            this.tabPage8.Controls.Add(this.textBox26);
+            this.tabPage8.Controls.Add(this.button8);
+            this.tabPage8.Controls.Add(this.label34);
+            this.tabPage8.Controls.Add(this.label35);
+            this.tabPage8.Controls.Add(this.label36);
+            this.tabPage8.Controls.Add(this.textBox27);
+            this.tabPage8.Controls.Add(this.textBox28);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(792, 424);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Parallel/5 Resistors";
+            this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // label31
             // 
@@ -841,6 +848,7 @@
             this.button8.TabIndex = 41;
             this.button8.Text = "Calculate";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label34
             // 
