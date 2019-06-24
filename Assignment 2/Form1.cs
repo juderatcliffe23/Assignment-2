@@ -59,7 +59,7 @@ namespace Assignment_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // calculate the resistance
+            // calculate the resistance of 2 resistors in series 
             try
             {
                 double R1, R2, Resistance;
@@ -76,7 +76,7 @@ namespace Assignment_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //calculate the resistance
+            //calculate the resistance of 3 resistors in a series
             try
             {
                 double R1, R2, R3, Resistance;
@@ -94,7 +94,7 @@ namespace Assignment_2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //calculate the resistance
+            //calculate the resistance of 4 resistors in a series
             try
             {
                 double R1, R2, R3, R4, Resistance;
@@ -113,7 +113,7 @@ namespace Assignment_2
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //calculate the resistance
+            //calculate the resistance of 5 resistors in a series
             try
             {
                 double R1, R2, R3, R4, R5, Resistance;
@@ -133,7 +133,7 @@ namespace Assignment_2
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //calculate the resistance
+            //calculate the resistance of 2 resistors in parallel
             try
             {
                 double R1, R2, Resistance;
@@ -150,7 +150,7 @@ namespace Assignment_2
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //calculate the resistance
+            //calculate the resistance of 3 resistors in parallel
             try
             {
                 double R1, R2, R3, Resistance;
@@ -168,7 +168,7 @@ namespace Assignment_2
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //calculate the resistance
+            //calculate the resistance of 4 resistors in parallel
             try
             {
                 double R1, R2, R3, R4, Resistance;
@@ -187,7 +187,7 @@ namespace Assignment_2
 
         private void button8_Click(object sender, EventArgs e)
         {
-            //calculate the resistance
+            //calculate the resistance of 5 resistors in parallel
             try
             {
                 double R1, R2, R3, R4, R5, Resistance;
